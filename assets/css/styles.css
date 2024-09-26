@@ -179,6 +179,7 @@ body {
   background-color: #000;
   color: #fff;
   overflow: hidden;
+  
 }
 
 #professional-challenges h2 {
@@ -187,7 +188,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  font-size: 36px;
+  font-size: 32px;
   color: #33A8DB;
   width: 100%;
   max-width: 800px;
@@ -201,9 +202,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 100%;
-  height: auto;
-  
+  width: 600px;
+  height: 400px;
+  object-fit: cover; /* Evita distorções */
 }
 
 #professional-challenges p {
